@@ -1,3 +1,4 @@
+[README.md](https://github.com/user-attachments/files/32385891/README.md)
 # Airwindows Kome Watcher
 
 Airwindows の新作を12時間ごとに監視し、スマホへ通知しつつ、既存プラグインも発掘できる日本語PWAです。
@@ -17,6 +18,7 @@ Airwindows の新作を12時間ごとに監視し、スマホへ通知しつつ�
 ## 構成
 - `scripts/update_airwindows.py`: RSS / Airwindopedia の取得・データ生成・通知
 - `.github/workflows/watch.yml`: 12時間ごとの定期実行
+- `.github/workflows/test-notification.yml`: ntfy の手動テスト通知
 - `docs/`: GitHub Pages で公開するPWA
 - `docs/data/`: 自動生成JSON
 
@@ -27,6 +29,14 @@ Airwindows の新作を12時間ごとに監視し、スマホへ通知しつつ�
 4. Repository Settings → Secrets and variables → Actions → New repository secret で `NTFY_TOPIC` を登録。
 5. Actions から `Airwindows watcher` を一度手動実行。
 6. Pages のURLをスマホで開き、「ホーム画面に追加」。
+
+## スマホ通知のテスト
+1. `.github/workflows/test-notification.yml` を、リポジトリ直下の同じパスに追加してコミットする。既存の `watch.yml` は変更しない。
+2. `NTFY_TOPIC` が登録済みなら再登録は不要。スマホの ntfy アプリで同じトピックを購読しておく。変更する場合は Repository Settings → Secrets and variables → Actions → `NTFY_TOPIC` → Update secret を使う。
+3. GitHub の Actions → **Test ntfy notification** → **Run workflow** → 緑の **Run workflow** を押す。
+4. 実行結果が緑のチェックになり、スマホに「おいでたぞコメくん！うおおお　これはテスト通知です」が届けば成功。
+
+GitHub に手動で追加する場合は、リポジトリ直下で **Add file → Create new file** を選び、ファイル名に `.github/workflows/test-notification.yml` を入力して内容を貼り付け、**Commit changes** を押す。README もこのファイルの内容に差し替える。通知が届かないときは、Actions の実行ログで `Send test notification` を確認し、スマホの購読トピックと `NTFY_TOPIC` の値が一致しているか調べる。
 
 ## 通知時刻
 `Asia/Tokyo` で 09:52 / 21:52。`.github/workflows/watch.yml` で変更可能です。
