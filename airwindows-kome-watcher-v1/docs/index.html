@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#111214" />
+  <meta name="description" content="Airwindowsの新作監視と既存プラグイン発掘をする日本語PWA" />
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" href="./icon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="./styles.css" />
+  <title>Airwindows コメウォッチ</title>
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <div class="eyebrow">AIRWINDOWS WATCHER</div>
+      <h1>コメウォッチ</h1>
+    </div>
+    <button id="installBtn" class="ghost" hidden>ホーム画面に追加</button>
+  </header>
+
+  <main>
+    <section class="hero card">
+      <div>
+        <div class="status-row"><span id="statusDot" class="dot"></span><span id="statusText">読み込み中…</span></div>
+        <h2>新作は全部拾う。<br>好みはあとから覚える。</h2>
+        <p>反応はこの端末だけに保存します。最初から勝手に「好きそう」を決め打ちしません。</p>
+      </div>
+      <div class="scorebox">
+        <span>学習済み反応</span>
+        <strong id="feedbackCount">0</strong>
+      </div>
+    </section>
+
+    <nav class="tabs" aria-label="画面切り替え">
+      <button class="tab active" data-tab="new">新着</button>
+      <button class="tab" data-tab="discover">発掘</button>
+      <button class="tab" data-tab="favorites">お気に入り</button>
+      <button class="tab" data-tab="settings">設定</button>
+    </nav>
+
+    <section id="panel-new" class="panel active">
+      <div class="section-head"><div><div class="eyebrow">NEW RELEASES</div><h2>新着</h2></div><select id="newSort"><option value="date">新しい順</option><option value="match">コメ向け順</option></select></div>
+      <div id="newList" class="list"></div>
+    </section>
+
+    <section id="panel-discover" class="panel">
+      <div class="section-head"><div><div class="eyebrow">DISCOVERY</div><h2>今日の発掘</h2></div><button id="rerollBtn" class="ghost">別の候補</button></div>
+      <p class="muted">未評価を優先しつつ、たまに昔の候補も混ぜます。</p>
+      <div id="discoverList" class="list"></div>
+    </section>
+
+    <section id="panel-favorites" class="panel">
+      <div class="section-head"><div><div class="eyebrow">FAVORITES</div><h2>お気に入り</h2></div></div>
+      <div id="favoriteList" class="list"></div>
+    </section>
+
+    <section id="panel-settings" class="panel">
+      <div class="section-head"><div><div class="eyebrow">SETTINGS</div><h2>設定</h2></div></div>
+      <div class="card settings-card">
+        <h3>好み学習</h3>
+        <p>「好き」「気になる」「まあまあ」「興味なし」の反応から、カテゴリごとの重みを端末内で更新します。</p>
+        <div id="weights" class="weights"></div>
+        <div class="button-row">
+          <button id="exportBtn" class="ghost">プロファイルを書き出す</button>
+          <button id="resetBtn" class="danger">学習をリセット</button>
+        </div>
+      </div>
+      <div class="card settings-card">
+        <h3>スマホ通知</h3>
+        <p>Push通知はGitHub Actions → ntfy で送ります。PWAを閉じていても受け取れます。ntfyのトピック名は他人に推測されにくいものにしてください。</p>
+      </div>
+      <div class="card settings-card">
+        <h3>この版の学習範囲</h3>
+        <p>v1はプライバシー優先で、好みを端末外へ送信しません。そのためPush通知は新作全件、PWA内の並び順だけが学習で変わります。</p>
+      </div>
+    </section>
+  </main>
+
+  <template id="itemTemplate">
+    <article class="item card">
+      <div class="item-top"><div><div class="meta"></div><h3 class="title"></h3></div><div class="match"></div></div>
+      <p class="summary"></p>
+      <details><summary>公式説明の原文抜粋</summary><p class="original"></p></details>
+      <div class="chips"></div>
+      <div class="actions">
+        <button data-rate="2">好き</button>
+        <button data-rate="1">気になる</button>
+        <button data-rate="0">まあまあ</button>
+        <button data-rate="-2">興味なし</button>
+        <button data-tried="1" class="ghost">試した</button>
+        <a class="official" target="_blank" rel="noopener noreferrer">公式を見る</a>
+      </div>
+    </article>
+  </template>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>
