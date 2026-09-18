@@ -1,1 +1,69 @@
-{"generated_at":null,"source":"https://www.airwindows.com/feed/","items":[]}
+{
+  "generated_at": "2026-09-18T14:11:11.120359+00:00",
+  "source": "https://www.airwindows.com/feed/",
+  "items": [
+    {
+      "id": "d8f73956fa014c10",
+      "title": "Ultralight",
+      "link": "https://www.airwindows.com/ultralight/",
+      "guid": "https://www.airwindows.com/?p=3152",
+      "published_at": "2026-09-13T20:15:43+00:00",
+      "categories": [
+        "Reverb",
+        "GetSampleRate",
+        "Reverb +",
+        "Undersampling",
+        "Zero Latency"
+      ],
+      "summary_ja": "Airwindowsのリバーブ系の新しい公開物です。 空間・残響を扱うタイプ、EQ／フィルター系として見ると分かりやすそうです。 詳細は公式説明で確認できます。",
+      "excerpt_original": "TL;DW: Ultralight is the most low-CPU matrix reverb I can make. Ultralight.zip (610k) standalone(AU, VST2) Ultralight in Airwindows Consolidated under ‘Reverb’ (CLAP, AU, VST3, LV2) This plugin continues work I’m doing, trying to make working demos of ideas for the Godot game engine. Much like FastDistance is a filter that (when not pushed to really […]"
+    },
+    {
+      "id": "5ddef70670d64d36",
+      "title": "FastDistance",
+      "link": "https://www.airwindows.com/fastdistance/",
+      "guid": "https://www.airwindows.com/?p=3149",
+      "published_at": "2026-09-06T21:51:02+00:00",
+      "categories": [
+        "Filter",
+        "EQ",
+        "GetSampleRate",
+        "Undersampling",
+        "Zero Latency"
+      ],
+      "summary_ja": "Airwindowsのフィルター／EQ系の新しい公開物です。 EQ／フィルター系として見ると分かりやすそうです。 詳細は公式説明で確認できます。",
+      "excerpt_original": "TL;DW: FastDistance is a sort of ultra-efficient lowpass filter. FastDistance.zip (545k) standalone(AU, VST2) FastDistance in Airwindows Consolidated under ‘Filter’ (CLAP, AU, VST3, LV2) This is work I’m doing in efforts to help the Godot game engine. Whether or not it’s accepted by them, you get to have it now :) The idea of the distance […]"
+    },
+    {
+      "id": "b33fe40af1b44b95",
+      "title": "PurestWarm3",
+      "link": "https://www.airwindows.com/purestwarm3/",
+      "guid": "https://www.airwindows.com/?p=3145",
+      "published_at": "2026-08-30T20:52:09+00:00",
+      "categories": [
+        "Subtlety",
+        "Nonlinear",
+        "Zero Latency"
+      ],
+      "summary_ja": "Airwindowsの微細な質感調整系の新しい公開物です。 低域の質感や量感に関係するタイプ、歪み・サチュレーション系として見ると分かりやすそうです。 詳細は公式説明で確認できます。",
+      "excerpt_original": "TL;DW: PurestWarm3 is a subtle tone shaper and warmth adder. PurestWarm3.zip (503k) standalone(AU, VST2) PurestWarm3 in Airwindows Consolidated under ‘Subtlety’ (CLAP, AU, VST3, LV2) It’s been some years since PurestWarm saw any attention. It’s always been a bit tricky: proper second harmonic distortion is ‘warmth’ but it’s very hard to hear. But that’s just the […]"
+    },
+    {
+      "id": "98c90af12004ba28",
+      "title": "ChannelX",
+      "link": "https://www.airwindows.com/channelx/",
+      "guid": "https://www.airwindows.com/?p=3142",
+      "published_at": "2026-08-23T16:40:59+00:00",
+      "categories": [
+        "Tone Color",
+        "Consoles +",
+        "GetSampleRate",
+        "Interleaved",
+        "Nonlinear",
+        "Zero Latency"
+      ],
+      "summary_ja": "Airwindowsの音色・カラー付け系の新しい公開物です。 コンソール／バス処理系として見ると分かりやすそうです。 詳細は公式説明で確認できます。",
+      "excerpt_original": "TL;DW: ChannelX translates Channel9 into a profusion of wild experiments. ChannelX.zip (545k) standalone(AU, VST2) ChannelX in Airwindows Consolidated under ‘Tone Color’ (CLAP, AU, VST3, LV2) Everything’s the same, and nothing is the same. It’s quite hard to tell what will happen with this plugin update. To surface appearances it’s exactly the same as Console9, right […]"
+    }
+  ]
+}
