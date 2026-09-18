@@ -35,6 +35,32 @@ jobs:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: python scripts/update_airwindows.py
 
+      - name: Setup Python for free translation
+        uses: actions/setup-python@v6
+        continue-on-error: true
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+          cache-dependency-path: requirements-translate.txt
+
+      - name: Cache translation model
+        uses: actions/cache@v4
+        continue-on-error: true
+        with:
+          path: ${{ runner.temp }}/argos-packages
+          key: argos-en-ja-model-v1
+
+      - name: Install offline translator
+        continue-on-error: true
+        run: python -m pip install -r requirements-translate.txt
+
+      - name: Translate official descriptions
+        continue-on-error: true
+        env:
+          ARGOS_PACKAGES_DIR: ${{ runner.temp }}/argos-packages
+          ARGOS_DEVICE_TYPE: cpu
+        run: python scripts/translate_descriptions.py --limit 100
+
       - name: Commit updated feed data
         run: |
           git config user.name "airwindows-kome-bot"
