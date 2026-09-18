@@ -1,0 +1,30 @@
+name: Test ntfy notification
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send test notification
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -z "$NTFY_TOPIC" ]]; then
+            echo 'NTFY_TOPIC secret が未設定です。' >&2
+            exit 1
+          fi
+          if [[ ! "$NTFY_TOPIC" =~ ^[A-Za-z0-9_-]+$ ]]; then
+            echo 'NTFY_TOPIC は英数字、ハイフン、アンダースコアのみで設定してください。' >&2
+            exit 1
+          fi
+          printf '%s' 'おいでたぞコメくん！うおおお　これはテスト通知です' |
+            curl --fail-with-body --silent --show-error --retry 2 \
+              --data-binary @- "https://ntfy.sh/${NTFY_TOPIC}"
+          echo 'テスト通知を送信しました。'
