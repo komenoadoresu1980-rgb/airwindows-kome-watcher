@@ -1,0 +1,60 @@
+name: Airwindows watcher
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '52 9,21 * * *'
+      timezone: 'Asia/Tokyo'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: airwindows-watcher
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Check Airwindows and generate data
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python scripts/update_airwindows.py
+
+      - name: Commit updated feed data
+        run: |
+          git config user.name "airwindows-kome-bot"
+          git config user.email "airwindows-kome-bot@users.noreply.github.com"
+          git add docs/data
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "chore: update Airwindows feed"
+            git push
+          fi
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload PWA
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs
+
+      - name: Deploy PWA
+        id: deployment
+        uses: actions/deploy-pages@v4
