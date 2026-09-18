@@ -34,8 +34,14 @@ function itemCard(item, kind='release'){
   const title = item.title || item.name;
   const link = item.link || item.search_url;
   el.querySelector('.title').textContent = title;
-  el.querySelector('.summary').textContent = item.summary_ja || '日本語説明を生成できませんでした。';
-  el.querySelector('.original').textContent = item.excerpt_original || '原文抜粋なし';
+  const jaPreview = item.description_ja && item.description_ja.split(/\n\s*\n/)[0];
+  el.querySelector('.summary').textContent = jaPreview || item.summary_ja || '日本語説明を生成できませんでした。';
+  const translated = el.querySelector('.translated-details');
+  if (item.description_ja) {
+    translated.hidden = false;
+    translated.querySelector('.translated').textContent = item.description_ja;
+  }
+  el.querySelector('.original').textContent = item.description_original || item.excerpt_original || '原文なし';
   el.querySelector('.match').textContent = matchLabel(item);
   const date = item.published_at ? new Date(item.published_at).toLocaleString('ja-JP',{dateStyle:'medium'}) : '既存プラグイン';
   el.querySelector('.meta').textContent = `${date}${profile.tried[id] ? ' ・ 試した' : ''}`;

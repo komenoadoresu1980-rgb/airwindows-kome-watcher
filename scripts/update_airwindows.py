@@ -129,6 +129,8 @@ class Release:
     categories: list[str]
     summary_ja: str
     excerpt_original: str
+    description_original: str = ""
+    description_ja: str = ""
 
 
 def parse_feed(xml_text: str) -> list[Release]:
@@ -153,6 +155,7 @@ def parse_feed(xml_text: str) -> list[Release]:
             categories=cats,
             summary_ja=summarize_jp(title, body, cats),
             excerpt_original=excerpt,
+            description_original=body,
         ))
     return out
 
@@ -184,13 +187,14 @@ def parse_airwindopedia(text: str) -> list[dict]:
         candidates = [p for p in category_by_plugin if first.lower().startswith(p.lower() + " ") or first.lower() == p.lower()]
         if candidates:
             name = max(candidates, key=len)
-        body = strip_html(" ".join([first] + rest))
+        body = "\n\n".join(strip_html(paragraph) for paragraph in
+                           re.split(r"\n\s*\n", "\n".join([first] + rest)) if strip_html(paragraph))
         if name:
-            descriptions[name] = body[:1200]
+            descriptions[name] = body
 
     items = []
-    for name in sorted(category_by_plugin, key=str.lower):
-        cats = sorted(category_by_plugin[name])
+    for name in sorted(category_by_plugin.keys() | descriptions.keys(), key=str.lower):
+        cats = sorted(category_by_plugin.get(name, set()))
         desc = descriptions.get(name, "")
         items.append({
             "id": hashlib.sha1(("catalog:" + name).encode()).hexdigest()[:16],
@@ -199,6 +203,8 @@ def parse_airwindopedia(text: str) -> list[dict]:
             "categories_ja": [CATEGORY_JA[c] for c in cats if c in CATEGORY_JA],
             "summary_ja": summarize_jp(name, desc, cats),
             "excerpt_original": desc[:420] + ("…" if len(desc) > 420 else ""),
+            "description_original": desc,
+            "description_ja": "",
             "search_url": "https://www.airwindows.com/?s=" + urllib.parse.quote(name),
         })
     return items
@@ -209,6 +215,16 @@ def read_json(path: Path, default):
         return json.loads(path.read_text(encoding="utf-8"))
     except Exception:
         return default
+
+
+def preserve_translations(items: list[dict], previous_items: list[dict]) -> list[dict]:
+    previous_by_id = {item.get("id"): item for item in previous_items}
+    for item in items:
+        old = previous_by_id.get(item.get("id"), {})
+        # A changed official description must be translated again.
+        if old.get("description_original") == item.get("description_original"):
+            item["description_ja"] = old.get("description_ja", "")
+    return items
 
 
 def write_json(path: Path, value) -> None:
@@ -255,15 +271,18 @@ def main() -> int:
         for release in reversed(new_items):
             ntfy_publish(release)
 
+    release_items = preserve_translations(
+        [asdict(x) for x in releases[:120]], previous.get("items", []))
     write_json(DATA / "releases.json", {
         "generated_at": now,
         "source": FEED_URL,
-        "items": [asdict(x) for x in releases[:120]],
+        "items": release_items,
     })
 
     try:
         aw = fetch_text(AIRWINDOPEDIA_URL)
-        catalog = parse_airwindopedia(aw)
+        old_catalog = read_json(DATA / "catalog.json", {"items": []})
+        catalog = preserve_translations(parse_airwindopedia(aw), old_catalog.get("items", []))
         write_json(DATA / "catalog.json", {
             "generated_at": now,
             "source": AIRWINDOPEDIA_URL,
