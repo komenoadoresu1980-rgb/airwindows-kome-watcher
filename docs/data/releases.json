@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-09-20T16:31:04.332754+00:00",
+  "generated_at": "2026-09-21T05:33:02.834213+00:00",
   "source": "https://www.airwindows.com/feed/",
   "items": [
+    {
+      "id": "342a1c60394c3a62",
+      "title": "Ultralight2",
+      "link": "https://www.airwindows.com/ultralight2/",
+      "guid": "https://www.airwindows.com/?p=3156",
+      "published_at": "2026-09-20T19:46:18+00:00",
+      "categories": [
+        "Reverb",
+        "EQ",
+        "GetSampleRate",
+        "Reverb +",
+        "Undersampling",
+        "Zero Latency"
+      ],
+      "summary_ja": "Airwindowsのリバーブ系の新しい公開物です。 空間・残響を扱うタイプ、EQ／フィルター系として見ると分かりやすそうです。 詳細は公式説明で確認できます。",
+      "excerpt_original": "TL;DW: Ultralight2 is more of the most low-CPU matrix reverb I can make. Ultralight2.zip (610k) standalone(AU, VST2) Ultralight2 in Airwindows Consolidated under ‘Reverb’ (CLAP, AU, VST3, LV2) This plugin continues work I’m doing, trying to make working demos of ideas for the Godot game engine. Much like FastDistance is a filter that (when not pushed […]",
+      "description_original": "TL;DW: Ultralight2 is more of the most low-CPU matrix reverb I can make. Ultralight2.zip (610k) standalone(AU, VST2) Ultralight2 in Airwindows Consolidated under ‘Reverb’ (CLAP, AU, VST3, LV2) This plugin continues work I’m doing, trying to make working demos of ideas for the Godot game engine. Much like FastDistance is a filter that (when not pushed […]",
+      "description_ja": "TL;DW: Ultralight2は私が作ることができる最も低いCPUのマトリックスのリバーブの多くです。 Ultralight2.zip (610k) スタンドアローン(AU、VST2) エアウィンドーにおけるUltralight2 は、「Reverb」(CLAP、AU、VST3、LV2) このプラグインは、Godotゲームエンジンのアイデアの作業デモをしようと、私がやっている仕事を続けている。 FastDistance のようなものは、(プッシュされていない場合 [...]"
+    },
     {
       "id": "d8f73956fa014c10",
       "title": "Ultralight",
@@ -53,25 +72,6 @@
       "excerpt_original": "TL;DW: PurestWarm3 is a subtle tone shaper and warmth adder. PurestWarm3.zip (503k) standalone(AU, VST2) PurestWarm3 in Airwindows Consolidated under ‘Subtlety’ (CLAP, AU, VST3, LV2) It’s been some years since PurestWarm saw any attention. It’s always been a bit tricky: proper second harmonic distortion is ‘warmth’ but it’s very hard to hear. But that’s just the […]",
       "description_original": "TL;DW: PurestWarm3 is a subtle tone shaper and warmth adder. PurestWarm3.zip (503k) standalone(AU, VST2) PurestWarm3 in Airwindows Consolidated under ‘Subtlety’ (CLAP, AU, VST3, LV2) It’s been some years since PurestWarm saw any attention. It’s always been a bit tricky: proper second harmonic distortion is ‘warmth’ but it’s very hard to hear. But that’s just the […]",
       "description_ja": "TL;DW:PurestWarm3は微妙な調子のシェーダーおよび暖かさのadderです。 PurestWarm3.zip (503k) スタンドアロン(AU、VST2) エアウィンドワーズのPurestWarm3は「Subtlety」の下で連結しました(CLAP、AU、VST3、LV2) PurestWarmが注目を浴びてから数年経ちました。 それはいつも少しトリッキーです: 適切な第二の調和的な歪みは「ワーム」ですが、それは聞いて非常に困難です。 しかし、それだけではありません [...]"
-    },
-    {
-      "id": "98c90af12004ba28",
-      "title": "ChannelX",
-      "link": "https://www.airwindows.com/channelx/",
-      "guid": "https://www.airwindows.com/?p=3142",
-      "published_at": "2026-08-23T16:40:59+00:00",
-      "categories": [
-        "Tone Color",
-        "Consoles +",
-        "GetSampleRate",
-        "Interleaved",
-        "Nonlinear",
-        "Zero Latency"
-      ],
-      "summary_ja": "Airwindowsの音色・カラー付け系の新しい公開物です。 コンソール／バス処理系として見ると分かりやすそうです。 詳細は公式説明で確認できます。",
-      "excerpt_original": "TL;DW: ChannelX translates Channel9 into a profusion of wild experiments. ChannelX.zip (545k) standalone(AU, VST2) ChannelX in Airwindows Consolidated under ‘Tone Color’ (CLAP, AU, VST3, LV2) Everything’s the same, and nothing is the same. It’s quite hard to tell what will happen with this plugin update. To surface appearances it’s exactly the same as Console9, right […]",
-      "description_original": "TL;DW: ChannelX translates Channel9 into a profusion of wild experiments. ChannelX.zip (545k) standalone(AU, VST2) ChannelX in Airwindows Consolidated under ‘Tone Color’ (CLAP, AU, VST3, LV2) Everything’s the same, and nothing is the same. It’s quite hard to tell what will happen with this plugin update. To surface appearances it’s exactly the same as Console9, right […]",
-      "description_ja": "TL;DW: ChannelX は、Channel9 をワイルド実験の拡散に変換します。 チャンネルX.zip (545k) スタンドアローン(AU, VST2) チャネルX エアウィンドー 連結「トーンカラー」(CLAP, AU, VST3, LV2) すべてが同じで、何も同じです。 このプラグインの更新で何が起こるかを伝えることは非常に困難です。 表面外観には、まさにConsole9と同じです, 右 [...]"
     }
   ]
 }
