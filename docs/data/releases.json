@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-10-18T16:09:09.131223+00:00",
+  "generated_at": "2026-10-19T05:23:01.208634+00:00",
   "source": "https://www.airwindows.com/feed/",
   "items": [
+    {
+      "id": "909dc3fe1c060596",
+      "title": "VerbSevens",
+      "link": "https://www.airwindows.com/verbsevens/",
+      "guid": "https://www.airwindows.com/?p=3171",
+      "published_at": "2026-10-18T20:18:21+00:00",
+      "categories": [
+        "Reverb",
+        "FMA",
+        "GetSampleRate",
+        "Reverb +",
+        "Undersampling"
+      ],
+      "summary_ja": "Airwindowsのリバーブ系の新しい公開物です。 空間・残響を扱うタイプとして見ると分かりやすそうです。 詳細は公式説明で確認できます。",
+      "excerpt_original": "TL;DW: VerbSevens is a calibrated reference reverb plugin for reverb matrices. VerbSevens.zip (619k) standalone(AU, VST2) VerbSevens in Airwindows Consolidated under ‘Reverb’ (CLAP, AU, VST3, LV2) Here’s a tool I use often, updated to keep pace with where my development’s been heading. (also, a person brought up something happening with VerbSixes that I could make better, […]",
+      "description_original": "TL;DW: VerbSevens is a calibrated reference reverb plugin for reverb matrices. VerbSevens.zip (619k) standalone(AU, VST2) VerbSevens in Airwindows Consolidated under ‘Reverb’ (CLAP, AU, VST3, LV2) Here’s a tool I use often, updated to keep pace with where my development’s been heading. (also, a person brought up something happening with VerbSixes that I could make better, […]",
+      "description_ja": "TL;DW: VerbSevens は、リバーブ・マトリネスの校正されたリファレンス・リバーブ・プラグインです。 VerbSevens.zip (619k) スタンドアロン(AU, VST2) VerbSevens in Airwindows の連結下 reverb(CLAP, AU, VST3, LV2) 開発が進んでいる場所をペースに保つために、頻繁に使用するツールは次のとおりです。 (また、私はより良いを作ることができるVerbSixesで何かを起こした人, [...]"
+    },
     {
       "id": "42c0d06c304e2922",
       "title": "DeRez5",
@@ -59,26 +77,6 @@
       "excerpt_original": "OK, so for the ConsoleX3 shown in the video, go here: https://github.com/airwindows/ConsoleX3/releases and click on the version number at the top. As of posting it’s 0.0.7 (cue theme music!) and for this repository, I’ve not been able to get Github to set it as a ‘latest release’, but that’s the one. If you would like […]",
       "description_original": "OK, so for the ConsoleX3 shown in the video, go here: https://github.com/airwindows/ConsoleX3/releases and click on the version number at the top. As of posting it’s 0.0.7 (cue theme music!) and for this repository, I’ve not been able to get Github to set it as a ‘latest release’, but that’s the one. If you would like […]",
       "description_ja": "OK なので、動画に表示されている ConsoleX3 については、https://github.com/airwindows/ConsoleX3/releases にアクセスし、トップのバージョン番号をクリックします。 0.0.7(cueテーマの音楽!)とこのリポジトリの投稿では、Githubを「最新リリース」として設定することができませんが、その1つです。 お問い合わせ"
-    },
-    {
-      "id": "342a1c60394c3a62",
-      "title": "Ultralight2",
-      "link": "https://www.airwindows.com/ultralight2/",
-      "guid": "https://www.airwindows.com/?p=3156",
-      "published_at": "2026-09-20T19:46:18+00:00",
-      "categories": [
-        "Reverb",
-        "EQ",
-        "FMA",
-        "GetSampleRate",
-        "Reverb +",
-        "Undersampling",
-        "Zero Latency"
-      ],
-      "summary_ja": "Airwindowsのリバーブ系の新しい公開物です。 空間・残響を扱うタイプ、EQ／フィルター系として見ると分かりやすそうです。 詳細は公式説明で確認できます。",
-      "excerpt_original": "TL;DW: Ultralight2 is more of the most low-CPU matrix reverb I can make. Ultralight2.zip (610k) standalone(AU, VST2) Ultralight2 in Airwindows Consolidated under ‘Reverb’ (CLAP, AU, VST3, LV2) This plugin continues work I’m doing, trying to make working demos of ideas for the Godot game engine. Much like FastDistance is a filter that (when not pushed […]",
-      "description_original": "TL;DW: Ultralight2 is more of the most low-CPU matrix reverb I can make. Ultralight2.zip (610k) standalone(AU, VST2) Ultralight2 in Airwindows Consolidated under ‘Reverb’ (CLAP, AU, VST3, LV2) This plugin continues work I’m doing, trying to make working demos of ideas for the Godot game engine. Much like FastDistance is a filter that (when not pushed […]",
-      "description_ja": "TL;DW: Ultralight2は私が作ることができる最も低いCPUのマトリックスのリバーブの多くです。 Ultralight2.zip (610k) スタンドアローン(AU、VST2) エアウィンドーにおけるUltralight2 は、「Reverb」(CLAP、AU、VST3、LV2) このプラグインは、Godotゲームエンジンのアイデアの作業デモをしようと、私がやっている仕事を続けている。 FastDistance のようなものは、(プッシュされていない場合 [...]"
     }
   ]
 }
