@@ -1,7 +1,24 @@
 {
-  "generated_at": "2026-10-25T16:51:00.045499+00:00",
+  "generated_at": "2026-10-26T05:24:35.497579+00:00",
   "source": "https://www.airwindows.com/feed/",
   "items": [
+    {
+      "id": "0cb738872ff69d40",
+      "title": "Echojam",
+      "link": "https://www.airwindows.com/echojam/",
+      "guid": "https://www.airwindows.com/?p=3176",
+      "published_at": "2026-10-25T20:38:53+00:00",
+      "categories": [
+        "Ambience",
+        "Reverb +",
+        "Undersampling",
+        "Zero Latency"
+      ],
+      "summary_ja": "Airwindowsのアンビエンス／空間系系の新しい公開物です。 空間・残響を扱うタイプ、ギター／アンプ用途と関係するタイプとして見ると分かりやすそうです。 詳細は公式説明で確認できます。",
+      "excerpt_original": "TL;DW: Echojam is an echo effect that is secretly a reverb. Echojam.zip (575k) standalone(AU, VST2) Echojam in Airwindows Consolidated under ‘Ambience’ (CLAP, AU, VST3, LV2) This doesn’t have to be the guitar effect, but it totally can be! The idea is, do an echo effect like in many Pink Floyd, U2 etc etc. records, but […]",
+      "description_original": "TL;DW: Echojam is an echo effect that is secretly a reverb. Echojam.zip (575k) standalone(AU, VST2) Echojam in Airwindows Consolidated under ‘Ambience’ (CLAP, AU, VST3, LV2) This doesn’t have to be the guitar effect, but it totally can be! The idea is, do an echo effect like in many Pink Floyd, U2 etc etc. records, but […]",
+      "description_ja": "TL;DW: エコージャムは、密接にリバーブであるエコー効果です。 Echojam.zip (575k) スタンドアロン(AU、VST2) エアウィンドワーズのエコージャム 連結下 Ambience(CLAP、AU、VST3、LV2) ギター効果はなく、完全にできる! アイデアは、多くのピンクフロイド、U2などのレコードのようにエコー効果を行いますが、[...]"
+    },
     {
       "id": "909dc3fe1c060596",
       "title": "VerbSevens",
@@ -57,26 +74,6 @@
       "excerpt_original": "TL;DW: kRockstar2 is a realistic hall reverb using a new matrix! kRockstar2.zip (678k) standalone(AU, VST2) kRockstar2 in Airwindows Consolidated under ‘Reverb’ (CLAP, AU, VST3, LV2) kRockstar is no longer the most impressive realistic Airwindows reverb, because everything changed when I discovered the Conference 6×6 matrix. What that means is, each delay line output no longer […]",
       "description_original": "TL;DW: kRockstar2 is a realistic hall reverb using a new matrix! kRockstar2.zip (678k) standalone(AU, VST2) kRockstar2 in Airwindows Consolidated under ‘Reverb’ (CLAP, AU, VST3, LV2) kRockstar is no longer the most impressive realistic Airwindows reverb, because everything changed when I discovered the Conference 6×6 matrix. What that means is, each delay line output no longer […]",
       "description_ja": "TL;DW: kRockstar2は、新しい行列を使用して現実的なホールリバーブです! kRockstar2.zip(678k)スタンドアローン(AU、VST2)のKRockstar2は、「Reverb」(CLAP、AU、VST3、LV2)のKRockstarは、私が会議6×6マトリックスを発見したときにすべてが変更されたので、Airwindowsの最も印象的な現実的リバーブではありません。 つまり、各遅延ラインの出力はもはや[...]"
-    },
-    {
-      "id": "ec60c6c9633657bf",
-      "title": "ConsoleX3 Is Out!",
-      "link": "https://www.airwindows.com/consolex3/",
-      "guid": "https://www.airwindows.com/?p=3160",
-      "published_at": "2026-09-27T19:50:27+00:00",
-      "categories": [
-        "Consoles",
-        "Compressors +",
-        "Consoles +",
-        "EQ",
-        "GetSampleRate",
-        "Nonlinear",
-        "Zero Latency"
-      ],
-      "summary_ja": "Airwindowsのコンソール／ミックスバス系の新しい公開物です。 コンソール／バス処理系として見ると分かりやすそうです。 詳細は公式説明で確認できます。",
-      "excerpt_original": "OK, so for the ConsoleX3 shown in the video, go here: https://github.com/airwindows/ConsoleX3/releases and click on the version number at the top. As of posting it’s 0.0.7 (cue theme music!) and for this repository, I’ve not been able to get Github to set it as a ‘latest release’, but that’s the one. If you would like […]",
-      "description_original": "OK, so for the ConsoleX3 shown in the video, go here: https://github.com/airwindows/ConsoleX3/releases and click on the version number at the top. As of posting it’s 0.0.7 (cue theme music!) and for this repository, I’ve not been able to get Github to set it as a ‘latest release’, but that’s the one. If you would like […]",
-      "description_ja": "OK なので、動画に表示されている ConsoleX3 については、https://github.com/airwindows/ConsoleX3/releases にアクセスし、トップのバージョン番号をクリックします。 0.0.7(cueテーマの音楽!)とこのリポジトリの投稿では、Githubを「最新リリース」として設定することができませんが、その1つです。 お問い合わせ"
     }
   ]
 }
