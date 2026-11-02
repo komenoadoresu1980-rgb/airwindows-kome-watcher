@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-11-01T18:08:16.480024+00:00",
+  "generated_at": "2026-11-02T06:53:52.903903+00:00",
   "source": "https://www.airwindows.com/feed/",
   "items": [
+    {
+      "id": "339b353b4b29a223",
+      "title": "PunchyDeluxe",
+      "link": "https://www.airwindows.com/punchydeluxe/",
+      "guid": "https://www.airwindows.com/?p=3181",
+      "published_at": "2026-11-01T20:15:55+00:00",
+      "categories": [
+        "Amp Sims",
+        "Innovative",
+        "EQ",
+        "GetSampleRate",
+        "Nonlinear",
+        "Zero Latency"
+      ],
+      "summary_ja": "Airwindowsのアンプシミュレーション系の新しい公開物です。 ギター／アンプ用途と関係するタイプとして見ると分かりやすそうです。 詳細は公式説明で確認できます。",
+      "excerpt_original": "TL;DW: PunchyDeluxe is a smoother form of PointyDeluxe. PunchyDeluxe.zip (537k) standalone(AU, VST2) PunchyDeluxe in Airwindows Consolidated under ‘Amp Sims’ (CLAP, AU, VST3, LV2) As demonstrated when demoing Echojam: when I couldn’t use a real guitar DI or amp, I reached for an unreleased plugin. PunchyDeluxe is basically just like PointyDeluxe, except there’s just a little […]",
+      "description_original": "TL;DW: PunchyDeluxe is a smoother form of PointyDeluxe. PunchyDeluxe.zip (537k) standalone(AU, VST2) PunchyDeluxe in Airwindows Consolidated under ‘Amp Sims’ (CLAP, AU, VST3, LV2) As demonstrated when demoing Echojam: when I couldn’t use a real guitar DI or amp, I reached for an unreleased plugin. PunchyDeluxe is basically just like PointyDeluxe, except there’s just a little […]",
+      "description_ja": "TL;DW:PonkyDeluxeはPotyDeluxeのより滑らかな形態です。 PunchyDeluxe.zip (537k) スタンドアロン(AU, VST2) Airwindows の連結で ‘Amp Sims’ (CLAP, AU, VST3, LV2) Echojam をデモするときに実証したように: 実際のギター DI や amp を使用できなかったとき、未発表のプラグインに辿り着く。 PunchyDeluxe は、基本的には PointyDeluxe と同じです。, ちょうど少しだけありますが [...]"
+    },
     {
       "id": "0cb738872ff69d40",
       "title": "Echojam",
@@ -10,7 +29,6 @@
       "published_at": "2026-10-25T20:38:53+00:00",
       "categories": [
         "Ambience",
-        "FMA",
         "Reverb +",
         "Undersampling",
         "Zero Latency"
@@ -28,7 +46,6 @@
       "published_at": "2026-10-18T20:18:21+00:00",
       "categories": [
         "Reverb",
-        "FMA",
         "GetSampleRate",
         "Reverb +",
         "Undersampling"
@@ -56,25 +73,6 @@
       "excerpt_original": "TL;DW: DeRez5 adds new forms of derezzing. DeRez5.zip (527k) standalone(AU, VST2) DeRez5 in Airwindows Consolidated under ‘Lo-Fi’ (CLAP, AU, VST3, LV2) Interestingly, the last time I worked on DeRez I was also putting a lot of time into Meter. Maybe I turn to imaginary digital noises when struggling to unearth the secrets of the great […]",
       "description_original": "TL;DW: DeRez5 adds new forms of derezzing. DeRez5.zip (527k) standalone(AU, VST2) DeRez5 in Airwindows Consolidated under ‘Lo-Fi’ (CLAP, AU, VST3, LV2) Interestingly, the last time I worked on DeRez I was also putting a lot of time into Meter. Maybe I turn to imaginary digital noises when struggling to unearth the secrets of the great […]",
       "description_ja": "TL;DW: DeRez5 は、新しい解凍フォームを追加します。 DeRez5.zip (527k) スタンドアロン(AU、VST2) DeRez5 in Airwindows の連結下 'Lo-Fi' (CLAP、AU、VST3、LV2) 興味深いことに、私がDeRezに働いた最後の時間は、メーターに多くの時間を置いていました。 多分私は素晴らしいの秘密を解明するために苦労したときに重要なデジタルノイズに変わります[...]"
-    },
-    {
-      "id": "46f6284c7a1b0cf5",
-      "title": "kRockstar2",
-      "link": "https://www.airwindows.com/krockstar2/",
-      "guid": "https://www.airwindows.com/?p=3164",
-      "published_at": "2026-10-04T21:19:07+00:00",
-      "categories": [
-        "Reverb",
-        "FMA",
-        "GetSampleRate",
-        "Reverb +",
-        "Undersampling",
-        "Zero Latency"
-      ],
-      "summary_ja": "Airwindowsのリバーブ系の新しい公開物です。 空間・残響を扱うタイプとして見ると分かりやすそうです。 詳細は公式説明で確認できます。",
-      "excerpt_original": "TL;DW: kRockstar2 is a realistic hall reverb using a new matrix! kRockstar2.zip (678k) standalone(AU, VST2) kRockstar2 in Airwindows Consolidated under ‘Reverb’ (CLAP, AU, VST3, LV2) kRockstar is no longer the most impressive realistic Airwindows reverb, because everything changed when I discovered the Conference 6×6 matrix. What that means is, each delay line output no longer […]",
-      "description_original": "TL;DW: kRockstar2 is a realistic hall reverb using a new matrix! kRockstar2.zip (678k) standalone(AU, VST2) kRockstar2 in Airwindows Consolidated under ‘Reverb’ (CLAP, AU, VST3, LV2) kRockstar is no longer the most impressive realistic Airwindows reverb, because everything changed when I discovered the Conference 6×6 matrix. What that means is, each delay line output no longer […]",
-      "description_ja": "TL;DW: kRockstar2は、新しい行列を使用して現実的なホールリバーブです! kRockstar2.zip(678k)スタンドアローン(AU、VST2)のKRockstar2は、「Reverb」(CLAP、AU、VST3、LV2)のKRockstarは、私が会議6×6マトリックスを発見したときにすべてが変更されたので、Airwindowsの最も印象的な現実的リバーブではありません。 つまり、各遅延ラインの出力はもはや[...]"
     }
   ]
 }
