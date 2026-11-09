@@ -1,7 +1,23 @@
 {
-  "generated_at": "2026-11-08T18:06:40.892092+00:00",
+  "generated_at": "2026-11-09T07:14:36.516283+00:00",
   "source": "https://www.airwindows.com/feed/",
   "items": [
+    {
+      "id": "9d2502e10434a3a4",
+      "title": "Weave",
+      "link": "https://www.airwindows.com/weave/",
+      "guid": "https://www.airwindows.com/?p=3184",
+      "published_at": "2026-11-08T21:11:23+00:00",
+      "categories": [
+        "Saturation",
+        "Nonlinear",
+        "Zero Latency"
+      ],
+      "summary_ja": "Airwindowsのサチュレーション系の新しい公開物です。 歪み・サチュレーション系として見ると分かりやすそうです。 詳細は公式説明で確認できます。",
+      "excerpt_original": "TL;DW: Weave is a fancy overdrive with a good texture. Weave.zip (515k) standalone(AU, VST2) Weave in Airwindows Consolidated under ‘Saturation’ (CLAP, AU, VST3, LV2) There’s been a lineage of Airwindows custom overdrives. The most basic overdrive is based on the sin() function, and that’ll get you the softest, fattest distortion where harmonics are added one […]",
+      "description_original": "TL;DW: Weave is a fancy overdrive with a good texture. Weave.zip (515k) standalone(AU, VST2) Weave in Airwindows Consolidated under ‘Saturation’ (CLAP, AU, VST3, LV2) There’s been a lineage of Airwindows custom overdrives. The most basic overdrive is based on the sin() function, and that’ll get you the softest, fattest distortion where harmonics are added one […]",
+      "description_ja": "TL;DW: 織りは、良いテクスチャで豪華なオーバードライブです。 Weave.zip (515k) スタンドアローン(AU、VST2) エアウィンドワーズ 連結下「飽和」 (CLAP、AU、VST3、LV2) Airwindowsのカスタムオーバードライブのリネンはありました。 最も基本的なオーバードライブは、sin() 関数に基づいており、それはあなたに最も柔らかく、調和が加えられた脂肪の歪みを得るでしょう[...]"
+    },
     {
       "id": "339b353b4b29a223",
       "title": "PunchyDeluxe",
@@ -54,25 +70,6 @@
       "excerpt_original": "TL;DW: VerbSevens is a calibrated reference reverb plugin for reverb matrices. VerbSevens.zip (619k) standalone(AU, VST2) VerbSevens in Airwindows Consolidated under ‘Reverb’ (CLAP, AU, VST3, LV2) Here’s a tool I use often, updated to keep pace with where my development’s been heading. (also, a person brought up something happening with VerbSixes that I could make better, […]",
       "description_original": "TL;DW: VerbSevens is a calibrated reference reverb plugin for reverb matrices. VerbSevens.zip (619k) standalone(AU, VST2) VerbSevens in Airwindows Consolidated under ‘Reverb’ (CLAP, AU, VST3, LV2) Here’s a tool I use often, updated to keep pace with where my development’s been heading. (also, a person brought up something happening with VerbSixes that I could make better, […]",
       "description_ja": "TL;DW: VerbSevens は、リバーブ・マトリネスの校正されたリファレンス・リバーブ・プラグインです。 VerbSevens.zip (619k) スタンドアロン(AU, VST2) VerbSevens in Airwindows の連結下 reverb(CLAP, AU, VST3, LV2) 開発が進んでいる場所をペースに保つために、頻繁に使用するツールは次のとおりです。 (また、私はより良いを作ることができるVerbSixesで何かを起こした人, [...]"
-    },
-    {
-      "id": "42c0d06c304e2922",
-      "title": "DeRez5",
-      "link": "https://www.airwindows.com/derez5/",
-      "guid": "https://www.airwindows.com/?p=3168",
-      "published_at": "2026-10-11T21:29:26+00:00",
-      "categories": [
-        "Lo-Fi",
-        "EQ",
-        "GetSampleRate",
-        "Nonlinear",
-        "Undersampling",
-        "Zero Latency"
-      ],
-      "summary_ja": "AirwindowsのLo-Fi／デジタル質感系の新しい公開物です。 Lo-Fi／デジタル破壊系として見ると分かりやすそうです。 詳細は公式説明で確認できます。",
-      "excerpt_original": "TL;DW: DeRez5 adds new forms of derezzing. DeRez5.zip (527k) standalone(AU, VST2) DeRez5 in Airwindows Consolidated under ‘Lo-Fi’ (CLAP, AU, VST3, LV2) Interestingly, the last time I worked on DeRez I was also putting a lot of time into Meter. Maybe I turn to imaginary digital noises when struggling to unearth the secrets of the great […]",
-      "description_original": "TL;DW: DeRez5 adds new forms of derezzing. DeRez5.zip (527k) standalone(AU, VST2) DeRez5 in Airwindows Consolidated under ‘Lo-Fi’ (CLAP, AU, VST3, LV2) Interestingly, the last time I worked on DeRez I was also putting a lot of time into Meter. Maybe I turn to imaginary digital noises when struggling to unearth the secrets of the great […]",
-      "description_ja": "TL;DW: DeRez5 は、新しい解凍フォームを追加します。 DeRez5.zip (527k) スタンドアロン(AU、VST2) DeRez5 in Airwindows の連結下 'Lo-Fi' (CLAP、AU、VST3、LV2) 興味深いことに、私がDeRezに働いた最後の時間は、メーターに多くの時間を置いていました。 多分私は素晴らしいの秘密を解明するために苦労したときに重要なデジタルノイズに変わります[...]"
     }
   ]
 }
