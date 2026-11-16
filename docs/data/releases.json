@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-11-15T19:08:35.368293+00:00",
+  "generated_at": "2026-11-16T07:20:52.687365+00:00",
   "source": "https://www.airwindows.com/feed/",
   "items": [
+    {
+      "id": "f3725a8a75fcc183",
+      "title": "PunchyDeluxe2",
+      "link": "https://www.airwindows.com/punchydeluxe2/",
+      "guid": "https://www.airwindows.com/?p=3191",
+      "published_at": "2026-11-15T20:14:25+00:00",
+      "categories": [
+        "Amp Sims",
+        "EQ",
+        "GetSampleRate",
+        "Nonlinear",
+        "Zero Latency"
+      ],
+      "summary_ja": "Airwindowsのアンプシミュレーション系の新しい公開物です。 ギター／アンプ用途と関係するタイプとして見ると分かりやすそうです。 詳細は公式説明で確認できます。",
+      "excerpt_original": "TL;DW: PunchyDeluxe2 is more useable PunchyDeluxe. PunchyDeluxe2.zip (542k) standalone(AU, VST2) PunchyDeluxe2 in Airwindows Consolidated under ‘Amp Sims’ (CLAP, AU, VST3, LV2) No more fiddling with little sliders unless you actually want to! PunchyDeluxe2 is hot on the heels of PunchyDeluxe, because I found some stuff to do that made it a lot better. Instead of […]",
+      "description_original": "TL;DW: PunchyDeluxe2 is more useable PunchyDeluxe. PunchyDeluxe2.zip (542k) standalone(AU, VST2) PunchyDeluxe2 in Airwindows Consolidated under ‘Amp Sims’ (CLAP, AU, VST3, LV2) No more fiddling with little sliders unless you actually want to! PunchyDeluxe2 is hot on the heels of PunchyDeluxe, because I found some stuff to do that made it a lot better. Instead of […]",
+      "description_ja": "TL;DW: PunchyDeluxe2は、より有用なPunyDeluxeです。 PunchyDeluxe2.zip (542k) standalone(AU、VST2) Airwindowsの連結で「Amp Sims」(CLAP、AU、VST3、LV2) 実際に欲しいとしないと、小さなスライダでこれ以上のフィッドリングはありません! PunchyDeluxe2はPunkyDeluxeのヒールに熱く、それを作るためにいくつかのものがよりよくなることがわかりました。 [...]の代わりに"
+    },
     {
       "id": "9d2502e10434a3a4",
       "title": "Weave",
@@ -53,23 +71,6 @@
       "excerpt_original": "TL;DW: Echojam is an echo effect that is secretly a reverb. Echojam.zip (575k) standalone(AU, VST2) Echojam in Airwindows Consolidated under ‘Ambience’ (CLAP, AU, VST3, LV2) This doesn’t have to be the guitar effect, but it totally can be! The idea is, do an echo effect like in many Pink Floyd, U2 etc etc. records, but […]",
       "description_original": "TL;DW: Echojam is an echo effect that is secretly a reverb. Echojam.zip (575k) standalone(AU, VST2) Echojam in Airwindows Consolidated under ‘Ambience’ (CLAP, AU, VST3, LV2) This doesn’t have to be the guitar effect, but it totally can be! The idea is, do an echo effect like in many Pink Floyd, U2 etc etc. records, but […]",
       "description_ja": "TL;DW: エコージャムは、密接にリバーブであるエコー効果です。 Echojam.zip (575k) スタンドアロン(AU、VST2) エアウィンドワーズのエコージャム 連結下 Ambience(CLAP、AU、VST3、LV2) ギター効果はなく、完全にできる! アイデアは、多くのピンクフロイド、U2などのレコードのようにエコー効果を行いますが、[...]"
-    },
-    {
-      "id": "909dc3fe1c060596",
-      "title": "VerbSevens",
-      "link": "https://www.airwindows.com/verbsevens/",
-      "guid": "https://www.airwindows.com/?p=3171",
-      "published_at": "2026-10-18T20:18:21+00:00",
-      "categories": [
-        "Reverb",
-        "GetSampleRate",
-        "Reverb +",
-        "Undersampling"
-      ],
-      "summary_ja": "Airwindowsのリバーブ系の新しい公開物です。 空間・残響を扱うタイプとして見ると分かりやすそうです。 詳細は公式説明で確認できます。",
-      "excerpt_original": "TL;DW: VerbSevens is a calibrated reference reverb plugin for reverb matrices. VerbSevens.zip (619k) standalone(AU, VST2) VerbSevens in Airwindows Consolidated under ‘Reverb’ (CLAP, AU, VST3, LV2) Here’s a tool I use often, updated to keep pace with where my development’s been heading. (also, a person brought up something happening with VerbSixes that I could make better, […]",
-      "description_original": "TL;DW: VerbSevens is a calibrated reference reverb plugin for reverb matrices. VerbSevens.zip (619k) standalone(AU, VST2) VerbSevens in Airwindows Consolidated under ‘Reverb’ (CLAP, AU, VST3, LV2) Here’s a tool I use often, updated to keep pace with where my development’s been heading. (also, a person brought up something happening with VerbSixes that I could make better, […]",
-      "description_ja": "TL;DW: VerbSevens は、リバーブ・マトリネスの校正されたリファレンス・リバーブ・プラグインです。 VerbSevens.zip (619k) スタンドアロン(AU, VST2) VerbSevens in Airwindows の連結下 reverb(CLAP, AU, VST3, LV2) 開発が進んでいる場所をペースに保つために、頻繁に使用するツールは次のとおりです。 (また、私はより良いを作ることができるVerbSixesで何かを起こした人, [...]"
     }
   ]
 }
