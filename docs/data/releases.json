@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-11-22T19:59:13.920926+00:00",
+  "generated_at": "2026-11-23T08:18:07.168160+00:00",
   "source": "https://www.airwindows.com/feed/",
   "items": [
+    {
+      "id": "7265f84249871cc2",
+      "title": "WoodenChest",
+      "link": "https://www.airwindows.com/woodenchest/",
+      "guid": "https://www.airwindows.com/?p=3195",
+      "published_at": "2026-11-22T23:18:08+00:00",
+      "categories": [
+        "Tone Color",
+        "GetSampleRate",
+        "Reverb +",
+        "Undersampling",
+        "Zero Latency"
+      ],
+      "summary_ja": "Airwindowsの音色・カラー付け系の新しい公開物です。 空間・残響を扱うタイプ、低域の質感や量感に関係するタイプとして見ると分かりやすそうです。 詳細は公式説明で確認できます。",
+      "excerpt_original": "TL;DW: WoodenChest is like a slightly larger reverb for converting DI to acoustic. WoodenChest.zip (562k) standalone(AU, VST2) WoodenChest in Airwindows Consolidated under ‘Tone Color’ (CLAP, AU, VST3, LV2) The request was for a plugin like WoodenBox to improve the sound of an upright bass, presumably recorded without enough oomph, perhaps through a piezo bridge pickup. […]",
+      "description_original": "TL;DW: WoodenChest is like a slightly larger reverb for converting DI to acoustic. WoodenChest.zip (562k) standalone(AU, VST2) WoodenChest in Airwindows Consolidated under ‘Tone Color’ (CLAP, AU, VST3, LV2) The request was for a plugin like WoodenBox to improve the sound of an upright bass, presumably recorded without enough oomph, perhaps through a piezo bridge pickup. […]",
+      "description_ja": "TL;DW: ウッドチェストは、DIを音響に変換するための少し大きなリバーブのようなものです。 WoodChest.zip (562k) スタンドアロン(AU、VST2) エアウィンドウズの連結で「トーンカラー」(CLAP、AU、VST3、LV2) 木箱のような要求のプラグインは、おそらくピエゾ橋ピックアップを介して、おそらく十分なoomphなしで予期的に記録された直立した低音の音の音を改善するために木箱のようなものです。 [...]"
+    },
     {
       "id": "f3725a8a75fcc183",
       "title": "PunchyDeluxe2",
@@ -54,23 +72,6 @@
       "excerpt_original": "TL;DW: PunchyDeluxe is a smoother form of PointyDeluxe. PunchyDeluxe.zip (537k) standalone(AU, VST2) PunchyDeluxe in Airwindows Consolidated under ‘Amp Sims’ (CLAP, AU, VST3, LV2) As demonstrated when demoing Echojam: when I couldn’t use a real guitar DI or amp, I reached for an unreleased plugin. PunchyDeluxe is basically just like PointyDeluxe, except there’s just a little […]",
       "description_original": "TL;DW: PunchyDeluxe is a smoother form of PointyDeluxe. PunchyDeluxe.zip (537k) standalone(AU, VST2) PunchyDeluxe in Airwindows Consolidated under ‘Amp Sims’ (CLAP, AU, VST3, LV2) As demonstrated when demoing Echojam: when I couldn’t use a real guitar DI or amp, I reached for an unreleased plugin. PunchyDeluxe is basically just like PointyDeluxe, except there’s just a little […]",
       "description_ja": "TL;DW:PonkyDeluxeはPotyDeluxeのより滑らかな形態です。 PunchyDeluxe.zip (537k) スタンドアロン(AU, VST2) Airwindows の連結で ‘Amp Sims’ (CLAP, AU, VST3, LV2) Echojam をデモするときに実証したように: 実際のギター DI や amp を使用できなかったとき、未発表のプラグインに辿り着く。 PunchyDeluxe は、基本的には PointyDeluxe と同じです。, ちょうど少しだけありますが [...]"
-    },
-    {
-      "id": "0cb738872ff69d40",
-      "title": "Echojam",
-      "link": "https://www.airwindows.com/echojam/",
-      "guid": "https://www.airwindows.com/?p=3176",
-      "published_at": "2026-10-25T20:38:53+00:00",
-      "categories": [
-        "Ambience",
-        "Reverb +",
-        "Undersampling",
-        "Zero Latency"
-      ],
-      "summary_ja": "Airwindowsのアンビエンス／空間系系の新しい公開物です。 空間・残響を扱うタイプ、ギター／アンプ用途と関係するタイプとして見ると分かりやすそうです。 詳細は公式説明で確認できます。",
-      "excerpt_original": "TL;DW: Echojam is an echo effect that is secretly a reverb. Echojam.zip (575k) standalone(AU, VST2) Echojam in Airwindows Consolidated under ‘Ambience’ (CLAP, AU, VST3, LV2) This doesn’t have to be the guitar effect, but it totally can be! The idea is, do an echo effect like in many Pink Floyd, U2 etc etc. records, but […]",
-      "description_original": "TL;DW: Echojam is an echo effect that is secretly a reverb. Echojam.zip (575k) standalone(AU, VST2) Echojam in Airwindows Consolidated under ‘Ambience’ (CLAP, AU, VST3, LV2) This doesn’t have to be the guitar effect, but it totally can be! The idea is, do an echo effect like in many Pink Floyd, U2 etc etc. records, but […]",
-      "description_ja": "TL;DW: エコージャムは、密接にリバーブであるエコー効果です。 Echojam.zip (575k) スタンドアロン(AU、VST2) エアウィンドワーズのエコージャム 連結下 Ambience(CLAP、AU、VST3、LV2) ギター効果はなく、完全にできる! アイデアは、多くのピンクフロイド、U2などのレコードのようにエコー効果を行いますが、[...]"
     }
   ]
 }
